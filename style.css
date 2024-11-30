@@ -218,3 +218,83 @@
     font-size: 1.5em;
     font-weight: bold;
   }
+  /* Për seksionet "About Us" dhe "Our Products" - Qendërzimi i tekstit */
+  #about, #products {
+    padding: 4em 2em;
+    text-align: center;  /* Qendërzimi i tekstit */
+    background-color: #fff;
+    margin-top: 3em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #about h2, #products h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  #about p, #products p {
+    font-size: 1.3em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2em;
+  }
+  
+  /* Për seksionin "Our Products" - Qendërzimi i fotove dhe përmbajtjes */
+#products {
+    padding: 4em 2em;
+    text-align: center; /* Qendërzimi i tekstit */
+    background-color: #fff;
+    margin-top: 3em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #products h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  #products .product-list {
+    display: flex;
+    justify-content: space-around; /* Largon produktet njëra nga tjetra */
+    gap: 2em;
+    flex-wrap: wrap; /* Siguron që produktet të shfaqen edhe në pajisje mobile */
+  }
+  
+  #products .product {
+    width: 30%; /* Çdo produkt do të ketë 30% të gjerësisë */
+    background-color: #fff;
+    padding: 2em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #products .product:hover {
+    transform: scale(1.05); /* Zgjerimi i produktit kur kalohet mbi të */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  #products .product img {
+    max-width: 100%; /* Siguron që fotot të jenë të përshtatshme për kutinë */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em; /* Distanca mes fotos dhe përshkrimit */
+  }
+  
+  #products .product h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  #products .product p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+  }
