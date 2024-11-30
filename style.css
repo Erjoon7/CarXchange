@@ -77,5 +77,67 @@
     margin-bottom: 2em;
     color: #fff;
   }
+  .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Register and Login Sections */
+  #register, #login {
+    background-color: #fff;
+    padding: 3em;
+    margin-top: 3em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  input, button {
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.2em;
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+    border-color: #ff6600;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
   
 
