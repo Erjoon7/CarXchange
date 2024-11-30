@@ -1,0 +1,28 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body dhe stili i përgjithshëm */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333; /* Ngjyrë e errët për tekstin */
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
