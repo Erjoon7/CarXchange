@@ -26,3 +26,56 @@
     top: 0;
     z-index: 1000;
   }
+   /* Logo në anën e majtë */
+   .nav-logo a {
+    font-size: 3em;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2.5em;
+  }
+  
+  /* Lidhjet e navigimit (menuja) */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 0.5em;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover për lidhjet e menutë */
+  .nav-links a:hover {
+    color: #ff6600;
+  }
+  
+  /* Welcome Section */
+  #home {
+    background-color: #333;
+    color: #fff;
+    padding: 5em 2em;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #ff6600; /* Ngjyrë portokalli për titullin */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Hije për theksimin e titullit */
+  }
+  
+  #home p {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    color: #fff;
+  }
+  
+
