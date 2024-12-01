@@ -1,4 +1,4 @@
-// Login Form Validation
+
 const loginForm = document.getElementById('login-form');
 if (loginForm) {
   loginForm.addEventListener('submit', (e) => {
@@ -16,7 +16,7 @@ if (loginForm) {
     alert('Login successful!');
   });
 }
-// Register Form Validation
+
 const registerForm = document.getElementById('register-form');
 if (registerForm) {
   registerForm.addEventListener('submit', (e) => {
