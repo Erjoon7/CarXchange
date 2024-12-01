@@ -298,3 +298,37 @@
     color: #666;
     line-height: 1.5;
   }
+  /* Buton për seksionin "Products" */
+  .button {
+    background-color: #ff6600;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .button:hover {
+    background-color: #e65c00;
+  }
+
+  /* Përshtat për ekranet më të vogla, si telefonët */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+  .nav-links {
+    flex-direction: column; /* Navigimi do të shfaqet në një kolone për ekrane më të vogla */
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%; /* Imazhi do të zgjerohet për të mbushur hapësirën */
+  height: auto;
+}
